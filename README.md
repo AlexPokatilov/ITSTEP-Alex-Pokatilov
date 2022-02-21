@@ -1,2 +1,2 @@
-# ITSTEP-Alex-P
+# ITSTEP-Alex-Pokatilov
 ITSTEP repo for Homeworks
