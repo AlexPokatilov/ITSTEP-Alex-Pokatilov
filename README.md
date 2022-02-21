@@ -1,2 +1,2 @@
 # ITSTEP-Alex-P
-ITSTEP repo for HomeTasks
+ITSTEP repo for Homeworks
