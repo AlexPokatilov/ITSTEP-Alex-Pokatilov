@@ -1,0 +1,38 @@
+body{
+    background: #FFDEAD;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 20px;
+}
+.italic_text
+{
+    font-style: italic;
+}
+#rainbow_1{
+color: red;
+}
+#rainbow_2{
+    color: orangered;
+}
+#rainbow_3{
+    color: orange;
+    background-color: black;
+}
+#rainbow_4{
+    color: yellow;
+    background-color: gray;
+}
+#rainbow_5{
+    color: yellowgreen;
+    background-color: whitesmoke;
+}
+#rainbow_6{
+    color: green;
+}
+#rainbow_7{
+    color: darkcyan;
+}
+#rainbow_8{
+    color: blue;
+}

@@ -1,0 +1,66 @@
+.block div{
+    background: snow;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 1s linear;
+    box-shadow: 5px 5px 5px gray, -5px -5px 5px gray, -5px 5px 5px gray, 5px -5px 5px gray;
+}
+.block div:hover{
+    transform: scale(1.15);
+}
+#temp_block_1{
+    width: 280px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+#temp_block_2{
+    width: 280px;
+    position: absolute;
+    left: 300px;
+    top: 30px;
+}
+#temp_block_3{
+    width: 280px;
+    position: absolute;
+    left: 580px;
+    top: 30px;
+}
+#temp_block_4{
+    width: 280px;
+    position: absolute;
+    left: 860px;
+    top: 30px;
+}
+hr{
+    display: block;
+    width: 252px;
+    padding-left: -20px;
+    margin-left: -20px;
+}
+.shadow_text{
+    color: lightgray;
+}
+p{
+    font-weight: bold;
+}
+label{
+    margin: 7px;
+    padding: 10px 25px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: greenyellow;
+}

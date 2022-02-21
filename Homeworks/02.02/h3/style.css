@@ -1,0 +1,175 @@
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0px;
+    margin-left: 5px;
+}
+.head_icon img{
+    height: 40px;
+    width: 40px;
+}
+#mail{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10px;
+}
+#account{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 10px;
+}
+#sp1{margin-left: 10px;}
+#sp2{margin-right: 10px;}
+
+/*---------------------------------------------*/
+
+#sidebar{
+    width: 20%;
+    max-width: 170px;
+    margin: 10px;
+}
+#sidebar div{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 10px 10px;
+}
+#sidebar div span{
+    margin: 0px 10px;
+}
+#sidebar div img{
+    height: auto;
+    width: auto;
+}
+#sidebar div:hover{
+    background-color: lightsalmon;
+}
+
+/*---------------------------------------------*/
+
+#bodyspace{
+    display: flex;
+    margin: 0px;
+}
+hr{
+    margin: 0px;
+}
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    min-width: 350px;
+}
+
+/*---------------------------------------------*/
+
+#list{
+    width: 90vw;
+    position: fixed;
+    left: 180px;
+    margin: 10px;
+}
+#list div{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.date{
+    white-space: nowrap;
+}
+.attach_and_date{
+    position: sticky;
+    right: 20px;
+    margin-left: 110px;
+}
+.to_whom{
+    margin-left: 10px;
+    min-width: 90px;
+    margin-right: 40px;
+    overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.theme{
+    margin-right: 5px;
+    white-space: nowrap;
+}
+.text{
+    margin-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+	text-overflow: ellipsis;
+    color: gray;
+}
+#list div img{
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hide_after_800{
+    display: none;
+}
+
+/*-----------------------------------------*/
+
+@media(max-width: 800px)
+{
+    .hide_before_800{
+        display: none;
+    }
+    .tab{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .newtext{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: gray;
+        width: 65vw;
+    }
+    .hide_after_800{
+        display: block;
+        margin-top: 0px;
+    }
+    #list div{
+        height: 70px;
+        align-items: flex-start;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    #sidebar{
+        min-width: 130px;
+    }
+    #list{
+        left: 140px;
+    }
+    .attach_and_date{
+    right: 20px;
+    }
+}
+
+/*-----------------------------------------*/
+
+@media(max-width: 550px)
+{
+    #sidebar div span{
+        display: none;
+    }
+    #sidebar{
+        max-width: 52px;
+        min-width: 52px;
+    }
+    #list{
+        left: 60px;
+    }
+    .attach_and_date{
+    right: 10px;
+    }
+}

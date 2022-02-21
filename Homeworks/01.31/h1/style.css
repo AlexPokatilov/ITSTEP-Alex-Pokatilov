@@ -1,0 +1,33 @@
+table{
+    border-collapse: collapse;
+}
+table tbody tr:nth-child(odd) {
+    background-color: #DDD;
+}
+
+table thead tr {
+    display: block;
+    position: fixed;
+}
+table tbody tr{
+    display: block;
+}
+
+
+th{
+    background-color: lightblue;
+    width: 90px;
+    height: 30px;
+    padding: 5px 10px;
+    text-align: center;
+}
+td{
+    width: 90px;
+    height: 30px;
+    padding: 5px 10px;
+    text-align: center;
+}
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+}

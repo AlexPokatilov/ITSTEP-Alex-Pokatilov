@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+}
+.doors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-style: solid;
+    border-color: rgb(101, 17, 66);
+    perspective: 500px;
+}
+h2{
+    position: absolute;
+    z-index: -1;
+}
+.door{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(135, 45, 98);
+    border-style: solid;
+    border-color: rgb(101, 17, 66);
+    transition: all 2s;
+}
+.door_left{
+    transform-origin: left;
+}
+.door_right{
+    transform-origin: right;
+}
+  
+.doors:hover > .door_left{
+    transform: rotateY(60deg);
+}
+.doors:hover > .door_right{
+    transform: rotateY(-60deg);
+}

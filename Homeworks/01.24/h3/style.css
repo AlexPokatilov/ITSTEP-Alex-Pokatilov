@@ -1,0 +1,18 @@
+dd{
+    margin: 5px 0px;
+}
+.shadow{
+    color: gray;
+}
+.blue{
+    color: blue;
+}
+.bold{
+    font-weight: bold;
+}
+#tab{
+    margin-bottom: 20px;
+}
+.italic{
+    font-style: italic;
+}

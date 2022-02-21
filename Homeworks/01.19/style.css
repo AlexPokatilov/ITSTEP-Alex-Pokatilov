@@ -1,0 +1,25 @@
+.underline_text{
+    border-bottom: 2px dotted;
+}
+.bold_text{
+    font-weight: bold;
+}
+.code{
+    color: brown;
+    background-color: lightgrey;
+}
+.italic{
+    font-style: italic;
+}
+div{
+    background-color: lightgray;
+    line-height: 5px;
+    color: brown;
+}
+.black_text{
+    color: black;
+}
+.tags{
+    background-color: lightgrey;
+    color: blue;
+}

@@ -1,0 +1,19 @@
+div{
+    background-color: rgb(237, 158, 174);
+    padding: 10px;
+}
+ol{
+    padding: 0px 15px;
+    color: white;
+}
+li{
+    background-color: rgb(198, 99, 118);
+    list-style-position: inside;
+    padding: 10px 10px;
+    margin: 15px 0px;
+}
+span{
+    background-color: rgb(158, 53, 74);
+    padding: 10px;
+    margin-left: 5px;
+}

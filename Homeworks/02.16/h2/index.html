@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles_for_input_elements.css">
+    <title>H2 / 16.02</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3>Inputs</h3>
+            <div class="textboxes">
+                <input type="text" name="none" placeholder="Enter some text ">
+                <input id="valid" type="text" name="valid"
+                    placeholder="valid text &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔️">
+                <input id="invalid" type="text" name="invalid"
+                    placeholder="invalid text &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❌">
+            </div>
+        </div>
+        <div>
+            <h3>Check boxes</h3>
+            <div class="checkboxes">
+                <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slide round"></span>
+                </label>
+                <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slide round"></span>
+                </label>
+            </div>
+        </div>
+        <div>
+            <h3>Radio buttons</h3>
+            <div class="radiobuttons">
+                <label>Gender</label>
+                <input id="radio-1" type="radio" name="radio" value="1" checked>
+                <label for="radio-1">Male</label>
+                <input id="radio-2" type="radio" name="radio" value="2">
+                <label for="radio-2">Female</label>
+
+            </div>
+        </div>
+        <div>
+            <h3>Buttons</h3>
+            <div class="buttons">
+                <input id="btn-1" value="Active" type="button">
+                <input id="btn-2" value="Hover" type="button">
+                <input id="btn-3" value="Danger" type="button">
+                <input id="btn-4" value="Hover" type="button">
+                <input disabled id="btn-5" value="Disabled" type="button">
+                <input id="btn-6" value="+" type="button">
+                <input id="btn-7" value="-" type="button">
+            </div>
+        </div>
+        <div>
+            <h3>Text area</h3>
+            <div class="text-area">
+                <textarea>Enter some text...</textarea>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}
+ol{
+    border-style: solid;
+    padding-left: 0px;
+}
+
+
+.blocks{
+    display: flex;
+}
+.block{
+    width: 300px;
+}
+div.block {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right{
+    display: inline-block; 
+    overflow: hidden; 
+}
+.right img{
+    transition: 1s; 
+    display: block;
+}
+.blocks:hover .right img{
+    transform: scale(2);
+}
+
+
+.left{
+    transition: 0.3s;
+}
+.blocks:hover .left{
+    background-color: rgba(0, 0, 0, 0.5);
+}

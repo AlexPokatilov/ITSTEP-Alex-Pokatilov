@@ -1,0 +1,44 @@
+.color_1{
+    background-color: rgb(165, 204, 218);
+}
+.color_2{
+    background-color: rgb(173, 216, 230);
+}
+li{
+    list-style-position: outside;
+    list-style-type: none;
+    padding: 10px 0px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.color_1:hover, .color_2:hover{
+    list-style-image: url(/01.24/h2/images/arrow_16.png);
+}
+input[type="checkbox"]:checked + label.strikethrough {
+    text-decoration: line-through;
+    background-color: rgb(226, 226, 226);
+}
+input {
+    margin-left: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+
+span{margin-left: 20px; margin-right: 20px; font-size: 10px;}
+ul{padding-left: 0px;}
+div{margin: 20px;}
+
+
+/*input[type="checkbox"] + span{
+    position: fixed;
+    left: 64px;
+    top: 95px;
+    width: 20px;
+    height: 20px;
+    background: url(/uncheck.png) no-repeat;
+    cursor: pointer;
+   }
+input[type="checkbox"]:checked + span {
+    background: url(/check.png) no-repeat;
+}*/

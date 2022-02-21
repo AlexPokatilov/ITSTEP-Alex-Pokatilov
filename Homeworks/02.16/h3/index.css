@@ -1,0 +1,104 @@
+img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.form-group {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+#user input[type="text"],
+#email input[type="text"] {
+  width: 450px;
+  height: 30px;
+  border: solid white;
+  border-bottom: 1px solid darkgrey;
+  margin-right: 20px;
+}
+#password input[type="password"] {
+  width: 185px;
+  height: 30px;
+  border: solid white;
+  border-bottom: 1px solid darkgrey;
+  margin-right: 20px;
+}
+#name input[type="text"],
+#gender-age input[type="date"] {
+  width: 230px;
+  height: 30px;
+  border: solid white;
+  border-bottom: 1px solid darkgrey;
+  margin-right: 20px;
+}
+select {
+  margin-right: 20px;
+  width: 240px;
+  height: 30px;
+  border: solid white;
+  border-bottom: 1px solid darkgrey;
+}
+
+input[type="submit"] {
+  color: white;
+  height: 40px;
+  width: 130px;
+  border-radius: 5px;
+  border: 1px solid #008b8b;
+  background-color: #008b8b;
+  margin-left: 80%;
+  margin-top: 30px;
+}
+
+form {
+  box-shadow: 3px 3px 5px 6px #ccc;
+  padding: 30px;
+  width: 1000px;
+}
+
+@media screen and (max-width: 600px) {
+  .form-1 {
+    display: block;
+  }
+
+  #user input[type="text"],
+  #email input[type="text"] {
+    width: 180px;
+  }
+
+  #password {
+    display: block;
+  }
+  #password input[type="password"] {
+    width: 180px;
+  }
+  #name,
+  #gender-age {
+    display: block;
+  }
+  #gender-age input[type="date"] {
+    width: 235px;
+  }
+  select {
+    width: 240px;
+  }
+  form {
+    width: 400px;
+  }
+  input[type="submit"] {
+    margin-left: 60%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .form-1 {
+    display: block;
+  }
+  form {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .form-1 {
+    display: flex;
+  }
+}
